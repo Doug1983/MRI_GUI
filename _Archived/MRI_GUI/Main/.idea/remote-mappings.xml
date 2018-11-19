@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@docker://sachslab/dti_base:0.1/python">
+          <settings>
+            <list>
+              <mapping local-root="$PROJECT_DIR$/../../ExampleFiles" remote-root="/mnt/data" />
+            </list>
+          </settings>
+        </remote-mappings>
+      </list>
+    </list>
+  </component>
+</project>
