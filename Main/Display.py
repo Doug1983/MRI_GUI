@@ -146,7 +146,8 @@ class Display(QWidget):
         self.pixTran.setStyleSheet("QLabel {background-color : black}")
         b3.addWidget(self.pixTran)
 
-        # contrast slider 
+
+        # contrast slider
         self.slidCon = QSlider( Qt.Vertical, self)
         self.slidCon.setMinimum(1)
         self.slidCon.setMaximum(255)

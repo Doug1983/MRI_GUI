@@ -4,7 +4,7 @@ __author__ = "Guillaume Doucet"
 
 import os
 import sys
-from .BaseWidget import BaseWidget
+from Main.BaseWidget import BaseWidget
 
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QIcon
@@ -20,13 +20,13 @@ class MRI_MAIN(QMainWindow):
     # Subdirectories of MRI_GUI
     def define_subdirectories(self):
         basedir = os.path.dirname(os.path.realpath(__file__))
-        self.iconsDir = os.path.join(basedir, 'Icons')
+        self.icons_dir = os.path.join(basedir, 'icons')
 
     def init_ui(self):
         
         # Window creation ==================================================================
         self.setWindowTitle("MRI_GUI")
-        self.setWindowIcon(QIcon(os.path.join(self.iconsDir, 'brain.png')))
+        self.setWindowIcon(QIcon(os.path.join(self.icons_dir, 'brain.png')))
         self.statusBar().showMessage('ready')
 
         # Menu Bar =========================================================================
@@ -50,12 +50,12 @@ class MRI_MAIN(QMainWindow):
         trackvis = QAction('&trackvis', self)
         trackvis.triggered.connect(self.open_external_gui)
 
-        menubar = self.menuBar()
+        menu_bar = self.menuBar()
         
-        file_menu = menubar.addMenu('&File')
+        file_menu = menu_bar.addMenu('&File')
         file_menu.addAction(act_exit)
 
-        file_menu = menubar.addMenu('&External GUIs')
+        file_menu = menu_bar.addMenu('&External GUIs')
         file_menu.addAction(brainsuite)
         file_menu.addAction(dsi_studio)
         file_menu.addAction(freesurfer)
@@ -64,10 +64,10 @@ class MRI_MAIN(QMainWindow):
 
         # GUI layout =======================================================================
         # Base widget is the parent of each sub-widget within the GUI, it holds the files info
-        self.baseWidget = BaseWidget(self)
-        
+        self.base_widget = BaseWidget(self)
+
         # Show Main Window
-        self.setCentralWidget(self.baseWidget)
+        self.setCentralWidget(self.base_widget)
 
         self.resize(1600, 900)
         self.show()
@@ -100,7 +100,7 @@ if __name__ == '__main__':
     if not os.path.isdir('/tmp/runtime-root'):
         os.mkdir('/tmp/runtime-root')
     os.environ['XDG_RUNTIME_DIR'] = '/tmp/runtime-root'
-    qapp = QApplication(sys.argv)  # application object / sys.argv are command line arguments.
+    q_app = QApplication(sys.argv)  # application object / sys.argv are command line arguments.
     aw = MRI_MAIN()  # basic widget creation, if no parent: widget == window
 
-    qapp.exec()  # makes sure we have a clean exit
+    q_app.exec()  # makes sure we have a clean exit

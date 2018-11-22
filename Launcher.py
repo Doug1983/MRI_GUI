@@ -2,7 +2,8 @@ import os
 import sys
 import docker
 
-from PyQt5.QtWidgets import *
+from PyQt5.QtWidgets import QVBoxLayout, QHBoxLayout, QLabel, QLineEdit, QPushButton, QListWidget, QFileDialog, \
+    QMainWindow, QWidget, QListWidgetItem, QApplication
 from PyQt5.QtCore import Qt
 
 

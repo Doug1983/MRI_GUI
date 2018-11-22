@@ -10,7 +10,23 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/dev$Launcher.coverage" NAME="Launcher Coverage Results" MODIFIED="1542400716600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MRI_GUI$Launcher.coverage" NAME="Launcher Coverage Results" MODIFIED="1542662292359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
     <SUITE FILE_PATH="coverage/Host$Launcher.coverage" NAME="Launcher Coverage Results" MODIFIED="1541174215793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MRI_GUI$BidsParser.coverage" NAME="BidsParser Coverage Results" MODIFIED="1542921420169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Main/bidsparser" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1895954556">
@@ -79,44 +95,69 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="125432789">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="BidsParser" value="261" />
+          <entry key="Python Console" value="397" />
+          <entry key="py" value="9498" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="10155" />
+          <entry key="RegExp" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="18" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="18" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="dev" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Launcher.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+            <state relative-caret-position="220">
+              <caret line="162" column="24" lean-forward="true" selection-start-line="162" selection-start-column="24" selection-end-line="162" selection-end-column="24" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
-                <marker date="1542391752182" expanded="true" signature="3376:3562" ph="..." />
+                <marker date="1542662318067" expanded="true" signature="3516:3702" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/TopMenu.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Main/bidsparser/BidsParser.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="427">
+              <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
               <folding>
-                <element signature="e#1#62#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/Main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              <folding>
-                <element signature="e#115#124#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
+                <marker date="1542921415504" expanded="true" signature="110:653" ph="..." />
+                <marker date="1542921415504" expanded="true" signature="687:689" ph="..." />
+                <marker date="1542921415504" expanded="true" signature="5150:5151" ph="..." />
+                <marker date="1542921415504" expanded="true" signature="5150:5867" ph="..." />
               </folding>
             </state>
           </provider>
@@ -125,26 +166,14 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Main/ToolsGUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2533">
-              <caret line="149" column="26" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="27" />
+            <state relative-caret-position="3808">
+              <caret line="224" column="28" lean-forward="true" selection-start-line="224" selection-start-column="28" selection-end-line="224" selection-end-column="28" />
               <folding>
                 <element signature="e#86#95#0" expanded="true" />
                 <element signature="e#11736#13169#0" />
                 <element signature="e#11957#12748#0" />
                 <element signature="e#13207#14057#0" />
                 <element signature="e#14090#16033#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Main/Display.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2941">
-              <caret line="173" column="8" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#9#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -164,17 +193,29 @@
       <find>sys</find>
       <find>nib</find>
       <find>btn_get_folder</find>
+      <find>iconsDir</find>
+      <find>icons_dir</find>
+      <find>menubar</find>
+      <find>icon</find>
+      <find>app</find>
+      <find>ffol</find>
+      <find>icond</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MRI_GUI" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Main/Display.py" />
+        <option value="$PROJECT_DIR$/Main/bids_parser.py" />
+        <option value="$PROJECT_DIR$/Main/bidsparser/bids_parser.py" />
+        <option value="$PROJECT_DIR$/BidsParser.py" />
         <option value="$PROJECT_DIR$/Launcher.py" />
-        <option value="$PROJECT_DIR$/Main/ToolsGUI.py" />
         <option value="$PROJECT_DIR$/Main/Main.py" />
+        <option value="$PROJECT_DIR$/Main/ToolsGUI.py" />
+        <option value="$PROJECT_DIR$/Main/bidsparser/BidsParser.py" />
       </list>
     </option>
   </component>
@@ -184,10 +225,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="402" />
+    <option name="y" value="-17" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="1017" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -220,10 +262,23 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Main/bidsparser" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="Host" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="Host" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Sachs_Lab\MRI_GUI\dev\MRI_GUI\Main\bidsparser" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -237,7 +292,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.BidsParser">
+    <configuration name="BidsParser" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Host" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Main/bidsparser" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Main/bidsparser/BidsParser.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Launcher" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Host" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -245,9 +319,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="D:\Sachs_Lab\MRI_GUI\dev\MRI_GUI\Py\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -282,8 +356,13 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.Launcher" />
+      <item itemvalue="Python.BidsParser" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BidsParser" />
         <item itemvalue="Python.Launcher" />
       </list>
     </recent_temporary>
@@ -301,32 +380,40 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0836887" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.084754795" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" weight="0.1391258" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39587852" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49840087" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49733475" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49733475" visible="true" weight="0.39587852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.329718" />
       <window_info anchor="bottom" id="Docker" order="7" weight="0.3275488" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5026652" side_tool="true" weight="0.39587852" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286334" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.164859" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4989339" weight="0.37635574" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" side_tool="true" visible="true" weight="0.16044776" />
+      <window_info anchor="right" id="SciView" order="3" sideWeight="0.49551168" visible="true" weight="0.13326226" />
+      <window_info anchor="right" id="Database" order="4" sideWeight="0.49913043" weight="0.32995737" />
+      <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="5" sideWeight="0.50448835" side_tool="true" visible="true" weight="0.13326226" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,64 +422,144 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Main/bidsparser/BidsParser.py</url>
+          <line>130</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="file_name" />
+        <watch expression="duplicates.__len__()" />
+        <watch expression="wrap" />
+      </configuration>
+    </watches-manager>
+  </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
-        <expression-string>os.path.split(curr_path)[0]</expression-string>
+        <expression-string>match = regex.finditer('D:\\Sachs_Lab\\MRI_GUI\\data\\sourcedata\\sub-04\\test_postopct\\PAT01\\DICOM\\FILE1')
+
+for mat in match: 
+    if mat.group('Source') is not None:
+        print(mat.group('Source'))
+    if mat.group('Sub') is not None:
+        print(mat.group('Sub'))
+    if mat.group('Anat') is not None:
+        print(mat.group('Anat'))
+    if mat.group('dwi') is not None:
+        print(mat.group('dwi'))
+    if mat.group('ct') is not None:
+        print(mat.group('ct'))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>volumes</expression-string>
+        <expression-string>match = regex.finditer('D:\\Sachs_Lab\\MRI_GUI\\data\\sourcedata\\sub-04\\test_postopct\\PAT01\\DICOM\\FILE1')
+
+for mat in match: 
+    if mat.group('Source') is not None:
+        print(mat.group('Source'))
+    if mat.group('Sub') is not None:
+        print(mat.group('Sub'))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>curr_path = os.path.abspath(__file__)</expression-string>
+        <expression-string>match = regex.finditer('D:\\Sachs_Lab\\MRI_GUI\\data\\sourcedata\\sub-04\\test_postopct\\PAT01\\DICOM\\FILE1')
+
+for mat in match: 
+    print(mat.group('Source'))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>client = docker.from_env()
-ctnr = client.containers.run(image='sachslab/dti_base:0.3f', environment=display_env,  
-command=['python', '/mnt/test/Main.py'], detach=True, tty=True, volumes=volumes)</expression-string>
+        <expression-string>match = regex.finditer('D:\\Sachs_Lab\\MRI_GUI\\data\\sourcedata\\sub-04\\test_postopct\\PAT01\\DICOM\\FILE1')
+
+for mat in match: 
+    print(mat.groups('Source'))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>print(a)
-client = docker.from_env()
-ctnr = client.containers.run(image='sachslab/dti_base:0.3f', environment='DISPLAY=' + display_env,  
-command=['python', '/mnt/test/Main.py'], detach=True, tty=True)</expression-string>
+        <expression-string>regex.finditer('D:\\Sachs_Lab\\MRI_GUI\\data\\sourcedata\\sub-04\\test_postopct\\PAT01\\DICOM\\FILE1')</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>print(a)
-client = docker.from_env()
-ctnr = client.containers.run(image='sachslab/dti_base:0.3f', environment=['DISPLAY=' + display_env],  
-command=['python', '/mnt/test/Main.py'], detach=True, tty=True)</expression-string>
+        <expression-string>test = re.compile(r&quot;(?P&lt;Source&gt;sourcedata|derivatives)|(?P&lt;Sub&gt;sub-\d+)|(?P&lt;Anat&gt;anat|t1|t2)|(?P&lt;dwi&gt;dwi)|(?P&lt;ct&gt;ct)&quot;)
+
+
+
+match = test.finditer('D:\\Sachs_Lab\\MRI_GUI\\data\\sourcedata\\sub-04\\test_postopct\\PAT01\\DICOM\\FILE1'.lower())
+
+
+    
+print(match.group('Sub'))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>client = docker.from_env()
-ctnr = client.containers.run(image='sachslab/dti_base:0.3f', environment=['DISPLAY=' + display_env],  
-command=['python', '/mnt/test/Main.py'], detach=True, tty=True)</expression-string>
+        <expression-string>test = re.compile(r&quot;(?P&lt;Source&gt;sourcedata|derivatives)|(?P&lt;Sub&gt;sub-\d+)|(?P&lt;Anat&gt;anat|t1|t2)|(?P&lt;dwi&gt;dwi)|(?P&lt;ct&gt;ct)&quot;)
+
+
+
+match = test.sub('D:\\Sachs_Lab\\MRI_GUI\\data\\sourcedata\\sub-04\\test_postopct\\PAT01\\DICOM\\FILE1'.lower())
+
+
+    
+print(match.group('Sub'))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>client = docker.from_env()
-ctnr = client.containers.run(image='sachslab/dti_base:0.3f', environment=['DISPLAY=' + display_env],  
-command=['python', '/mnt/test/Main.py'], detach=True, tty=True, volumes=volumes)</expression-string>
+        <expression-string>test = re.compile(r&quot;(?P&lt;Source&gt;sourcedata|derivatives)|(?P&lt;Sub&gt;sub-\d+)|(?P&lt;Anat&gt;anat|t1|t2)|(?P&lt;dwi&gt;dwi)|(?P&lt;ct&gt;ct)&quot;)
+
+
+
+match = test.match('D:\\Sachs_Lab\\MRI_GUI\\data\\sourcedata\\sub-04\\test_postopct\\PAT01\\DICOM\\FILE1'.lower())
+
+
+    
+print(match.group('Sub'))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>client = docker.from_env()
-ctnr = client.containers.run(image='sachslab/dti_base:0.3f', environment=['DISPLAY=' +  display_env],  
-command='python /mnt/test/Main.py', detach=True, tty=True, volumes=volumes)</expression-string>
+        <expression-string>test = re.compile(r&quot;(?P&lt;Source&gt;sourcedata|derivatives)|(?P&lt;Sub&gt;sub-\d+)|(?P&lt;Anat&gt;anat|t1|t2)|(?P&lt;dwi&gt;dwi)|(?P&lt;ct&gt;ct)&quot;)
+
+
+
+match = test.search('D:\\Sachs_Lab\\MRI_GUI\\data\\sourcedata\\sub-04\\test_postopct\\PAT01\\DICOM\\FILE1'.lower())
+
+
+    
+print(match.group('Sub'))</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>test = re.compile(r&quot;(?P&lt;Source&gt;sourcedata|derivatives)|(?P&lt;Sub&gt;sub-\d+)|(?P&lt;Anat&gt;anat|t1|t2)|(?P&lt;dwi&gt;dwi)|(?P&lt;ct&gt;ct)&quot;)
+
+
+
+match = test.search('D:\\Sachs_Lab\\MRI_GUI\\data\\sourcedata\\sub-04\\test_postopct\\PAT01\\DICOM\\FILE1'.lower())
+
+
+    
+print(match.group('ct'))</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -432,35 +599,124 @@ command='python /mnt/test/Main.py', detach=True, tty=True, volumes=volumes)</exp
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/os.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="665" selection-start-line="665" selection-end-line="665" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Launcher.py" />
-    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/ntpath.py">
+    <entry file="file://$PROJECT_DIR$/Main/bidsparser/bids_parser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="214" selection-start-line="214" selection-end-line="214" />
+        <state relative-caret-position="17">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Main/Display.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2941">
-          <caret line="173" column="8" selection-start-line="173" selection-start-column="8" selection-end-line="173" selection-end-column="8" />
+        <state relative-caret-position="221">
+          <caret line="13" column="62" selection-start-line="13" selection-start-column="62" selection-end-line="13" selection-end-column="62" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Main/bids_parser.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BidsParser.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding>
+            <element signature="e#115#124#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py/Lib/site-packages/nibabel/cmdline/dicomfs.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py/Lib/site-packages/nibabel/pydicom_compat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main/TopMenu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding>
+            <element signature="e#1#62#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Launcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="162" column="24" lean-forward="true" selection-start-line="162" selection-start-column="24" selection-end-line="162" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+            <marker date="1542662318067" expanded="true" signature="3516:3702" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py/Lib/site-packages/nibabel/nicom/dicomwrappers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/genericpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="137" selection-start-line="137" selection-end-line="137" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/ntpath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="227" selection-start-line="227" selection-end-line="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Py/Lib/site-packages/nibabel/openers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="168" selection-start-line="168" selection-end-line="168" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python36_64/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="401" selection-start-line="401" selection-end-line="401" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Main/ToolsGUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2533">
-          <caret line="149" column="26" selection-start-line="149" selection-start-column="26" selection-end-line="149" selection-end-column="27" />
+        <state relative-caret-position="3808">
+          <caret line="224" column="28" lean-forward="true" selection-start-line="224" selection-start-column="28" selection-end-line="224" selection-end-column="28" />
           <folding>
             <element signature="e#86#95#0" expanded="true" />
             <element signature="e#11736#13169#0" />
@@ -471,33 +727,16 @@ command='python /mnt/test/Main.py', detach=True, tty=True, volumes=volumes)</exp
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main/Main.py">
+    <entry file="file://$PROJECT_DIR$/Main/bidsparser/BidsParser.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="e#115#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main/TopMenu.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#1#62#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Launcher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        <state relative-caret-position="427">
+          <caret line="135" lean-forward="true" selection-start-line="135" selection-end-line="135" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
-            <marker date="1542391752182" expanded="true" signature="3376:3562" ph="..." />
+            <marker date="1542921415504" expanded="true" signature="110:653" ph="..." />
+            <marker date="1542921415504" expanded="true" signature="687:689" ph="..." />
+            <marker date="1542921415504" expanded="true" signature="5150:5151" ph="..." />
+            <marker date="1542921415504" expanded="true" signature="5150:5867" ph="..." />
           </folding>
         </state>
       </provider>

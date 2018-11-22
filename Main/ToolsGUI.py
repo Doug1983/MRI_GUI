@@ -17,7 +17,9 @@ class ToolsGUI(QWidget):
     def __init__(self, parent):
         super().__init__(parent)
         self.parentWidget = parent
-        self.baseDir = ''
+
+        # default data directory, can be changed via GUI
+        self.baseDir = '/mnt/data'
         self.allSubDirs = []  # Subdirectories in the DICOM folder
         self.logFile = ''
         # can be split over multiple files, saves a dict:
