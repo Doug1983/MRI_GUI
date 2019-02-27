@@ -1,0 +1,15 @@
+digraph structs {
+node [shape=record];
+co_registrationpreopCT_T1_Reg [label="{IN}|{ preopCT_T1_Reg | ants |  }|{OUT|<outcompositetransform> composite_transform}"];
+co_registrationpreopCT_T1_Tran [label="{IN|<intransforms> transforms}|{ preopCT_T1_Tran | ants |  }|{OUT}"];
+co_registrationpostopCT_T1_Reg [label="{IN}|{ postopCT_T1_Reg | ants |  }|{OUT|<outcompositetransform> composite_transform}"];
+co_registrationpostopCT_T1_Tran [label="{IN|<intransforms> transforms}|{ postopCT_T1_Tran | ants |  }|{OUT}"];
+co_registrationMNI_BET [label="{IN}|{ MNI_BET | fsl |  }|{OUT|<outoutfile> out_file}"];
+co_registrationT1_MNI_Reg [label="{IN|<infixedimage> fixed_image}|{ T1_MNI_Reg | ants |  }|{OUT|<outcompositetransform> composite_transform}"];
+co_registrationT1_MNI_Tran [label="{IN|<inreferenceimage> reference_image|<intransforms> transforms}|{ T1_MNI_Tran | ants |  }|{OUT}"];
+co_registrationMNI_BET:outoutfile:e -> co_registrationT1_MNI_Reg:infixedimage:w;
+co_registrationMNI_BET:outoutfile:e -> co_registrationT1_MNI_Tran:inreferenceimage:w;
+co_registrationT1_MNI_Reg:outcompositetransform:e -> co_registrationT1_MNI_Tran:intransforms:w;
+co_registrationpostopCT_T1_Reg:outcompositetransform:e -> co_registrationpostopCT_T1_Tran:intransforms:w;
+co_registrationpreopCT_T1_Reg:outcompositetransform:e -> co_registrationpreopCT_T1_Tran:intransforms:w;
+}

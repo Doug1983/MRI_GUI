@@ -1,0 +1,71 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "0_dwi_BET",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "0_dwi_BET"
+        ],
+        "name": "1_dwi_Eddy",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "1_dwi_Eddy"
+        ],
+        "name": "2_dwi_ROI_b0",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "3_T1w_BET",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "3_T1w_BET"
+        ],
+        "name": "4_T1w_BFC",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "2_dwi_ROI_b0",
+            "4_T1w_BFC"
+        ],
+        "name": "5_b0_T1w_Reg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "1_dwi_Eddy",
+            "2_dwi_ROI_b0",
+            "5_b0_T1w_Reg"
+        ],
+        "name": "6_dwi_T1w_Tran",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "3_T1w_BET",
+            "4_T1w_BFC",
+            "0_dwi_BET",
+            "1_dwi_Eddy",
+            "2_dwi_ROI_b0",
+            "5_b0_T1w_Reg",
+            "6_dwi_T1w_Tran"
+        ],
+        "name": "7_sink",
+        "size": 1
+    }
+]

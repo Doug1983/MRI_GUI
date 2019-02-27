@@ -1,0 +1,17 @@
+strict digraph  {
+"T1w_BET (fsl)";
+"T1w_BFC (ants)";
+"b0_T1w_Reg (ants)";
+"dwi_BET (fsl)";
+"dwi_Eddy (fsl)";
+"dwi_ROI_b0 (fsl)";
+"dwi_T1w_Tran (ants)";
+"T1w_BET (fsl)" -> "T1w_BFC (ants)";
+"T1w_BFC (ants)" -> "b0_T1w_Reg (ants)";
+"b0_T1w_Reg (ants)" -> "dwi_T1w_Tran (ants)";
+"dwi_BET (fsl)" -> "dwi_Eddy (fsl)";
+"dwi_Eddy (fsl)" -> "dwi_ROI_b0 (fsl)";
+"dwi_Eddy (fsl)" -> "dwi_T1w_Tran (ants)";
+"dwi_ROI_b0 (fsl)" -> "b0_T1w_Reg (ants)";
+"dwi_ROI_b0 (fsl)" -> "dwi_T1w_Tran (ants)";
+}

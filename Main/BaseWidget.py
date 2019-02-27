@@ -5,43 +5,47 @@
 # The log file contains the output and list of all processing steps undertaken on the MRI file
 # It is displayed at the bottom of the main window.
 
-from ToolsGUI import *
-from Display import * 
-from TopMenu import *
+from ToolsMenu import *
+from FileNav import *
+from ToolsInterface import *
 
 from PyQt5.QtWidgets import QWidget, QHBoxLayout, QVBoxLayout
 
 
 class BaseWidget(QWidget):
 
-    def __init__(self, parent):
+    def __init__(self, parent, dir_dic, bids):
         super().__init__(parent)
-        self.init_ui()
 
-    def init_ui(self):
-        self.bAll = QVBoxLayout(self)
-        self.setLayout(self.bAll)
+        self.layout = QHBoxLayout(self)
 
-        # top menu
-        self.topMenu = TopMenu(self)
-        self.bAll.addWidget(self.topMenu, 0)
+        # Tools menu
+        self.tools_menu = ToolsMenu(self)
+        self.layout.addWidget(self.tools_menu, 2)
         
-        # Left Toolbar
-        b1 = QHBoxLayout()
-        self.toolsGUI = ToolsGUI(self)
-        b1.addWidget(self.toolsGUI, 0)
-        
-        # Display
-        self.display = Display(self)
-        b1.addWidget(self.display, 10)
-        self.bAll.addLayout(b1)
+        # File Navigator
+        file_display_layout = QVBoxLayout()
+        self.file_nav = FileNav(self, dir_dic, bids)
+        file_display_layout.addWidget(self.file_nav, 2)
+
+        # Tools Interface
+        self.tools_interface = ToolsInterface(self, dir_dic, bids)
+        file_display_layout.addWidget(self.tools_interface, 10)
+
+        self.layout.addLayout(file_display_layout, 10)
 
         # GUI events
-        self.topMenu.convertDICOM.connect(self.toolsGUI.preprocess_dicom)
-        self.topMenu.loadData.connect(self.toolsGUI.load_data)
-        self.topMenu.eddyCorr.connect(self.toolsGUI.preprocess_eddy)
-        self.topMenu.sigBET.connect(self.toolsGUI.preprocess_bet)
+        # Tools Menu:
+        # Click on tools button
+        self.tools_menu.update_tool_selection.connect(self.tools_interface.update_tool_selection)
+        self.tools_menu.update_tool_selection.connect(self.file_nav.update_tool_selection)
 
-        self.toolsGUI.postProcessDisplayUpdateSignal.connect(self.display.postProcessUpdate)
+        # File Navigator:
+        # Change in selected file
+        self.file_nav.send_selected_files.connect(self.tools_interface.update_file_selection)
+
+        # Tools Interface:
+        # update files post-processing
+        self.tools_interface.refresh_files.connect(self.file_nav.refresh_files)
+
         self.raise_()
-

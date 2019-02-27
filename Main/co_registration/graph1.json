@@ -1,0 +1,102 @@
+{
+    "groups": [
+        {
+            "name": "Group_00001",
+            "procs": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5
+            ],
+            "total": 6
+        }
+    ],
+    "links": [
+        {
+            "source": 2,
+            "target": 3,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "value": 1
+        }
+    ],
+    "maxN": 6,
+    "nodes": [
+        {
+            "group": 1,
+            "name": "0_postopCT_T1_Reg",
+            "report": "/tmp/tmpswlomdpg/co_registration/postopCT_T1_Reg/_report/report.rst",
+            "result": "/tmp/tmpswlomdpg/co_registration/postopCT_T1_Reg/result_postopCT_T1_Reg.pklz"
+        },
+        {
+            "group": 1,
+            "name": "1_postopCT_T1_Tran",
+            "report": "/tmp/tmpulhlcp1r/co_registration/postopCT_T1_Tran/_report/report.rst",
+            "result": "/tmp/tmpulhlcp1r/co_registration/postopCT_T1_Tran/result_postopCT_T1_Tran.pklz"
+        },
+        {
+            "group": 1,
+            "name": "2_MNI_BET",
+            "report": "/tmp/tmppsfm6lk6/co_registration/MNI_BET/_report/report.rst",
+            "result": "/tmp/tmppsfm6lk6/co_registration/MNI_BET/result_MNI_BET.pklz"
+        },
+        {
+            "group": 1,
+            "name": "3_T1_MNI_Reg",
+            "report": "/tmp/tmpxs61d15m/co_registration/T1_MNI_Reg/_report/report.rst",
+            "result": "/tmp/tmpxs61d15m/co_registration/T1_MNI_Reg/result_T1_MNI_Reg.pklz"
+        },
+        {
+            "group": 1,
+            "name": "4_T1_MNI_Tran",
+            "report": "/tmp/tmpra9s34mj/co_registration/T1_MNI_Tran/_report/report.rst",
+            "result": "/tmp/tmpra9s34mj/co_registration/T1_MNI_Tran/result_T1_MNI_Tran.pklz"
+        },
+        {
+            "group": 1,
+            "name": "5_sink",
+            "report": "/tmp/tmpvzohhdc9/co_registration/sink/_report/report.rst",
+            "result": "/tmp/tmpvzohhdc9/co_registration/sink/result_sink.pklz"
+        }
+    ]
+}

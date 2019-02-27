@@ -1,0 +1,146 @@
+{
+    "groups": [
+        {
+            "name": "Group_00001",
+            "procs": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7
+            ],
+            "total": 8
+        }
+    ],
+    "links": [
+        {
+            "source": 3,
+            "target": 4,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 1,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 2,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 5,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 6,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 6,
+            "value": 1
+        },
+        {
+            "source": 5,
+            "target": 6,
+            "value": 1
+        },
+        {
+            "source": 3,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 4,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 0,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 1,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 2,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 5,
+            "target": 7,
+            "value": 1
+        },
+        {
+            "source": 6,
+            "target": 7,
+            "value": 1
+        }
+    ],
+    "maxN": 8,
+    "nodes": [
+        {
+            "group": 1,
+            "name": "0_dwi_BET",
+            "report": "/tmp/tmpr_8dd5wl/pre_processing/dwi_BET/_report/report.rst",
+            "result": "/tmp/tmpr_8dd5wl/pre_processing/dwi_BET/result_dwi_BET.pklz"
+        },
+        {
+            "group": 1,
+            "name": "1_dwi_Eddy",
+            "report": "/tmp/tmpmzrke_8j/pre_processing/dwi_Eddy/_report/report.rst",
+            "result": "/tmp/tmpmzrke_8j/pre_processing/dwi_Eddy/result_dwi_Eddy.pklz"
+        },
+        {
+            "group": 1,
+            "name": "2_dwi_ROI_b0",
+            "report": "/tmp/tmpw7r15lu_/pre_processing/dwi_ROI_b0/_report/report.rst",
+            "result": "/tmp/tmpw7r15lu_/pre_processing/dwi_ROI_b0/result_dwi_ROI_b0.pklz"
+        },
+        {
+            "group": 1,
+            "name": "3_T1w_BET",
+            "report": "/tmp/tmpskt0ho0p/pre_processing/T1w_BET/_report/report.rst",
+            "result": "/tmp/tmpskt0ho0p/pre_processing/T1w_BET/result_T1w_BET.pklz"
+        },
+        {
+            "group": 1,
+            "name": "4_T1w_BFC",
+            "report": "/tmp/tmp8ne0djco/pre_processing/T1w_BFC/_report/report.rst",
+            "result": "/tmp/tmp8ne0djco/pre_processing/T1w_BFC/result_T1w_BFC.pklz"
+        },
+        {
+            "group": 1,
+            "name": "5_b0_T1w_Reg",
+            "report": "/tmp/tmp487ul6ne/pre_processing/b0_T1w_Reg/_report/report.rst",
+            "result": "/tmp/tmp487ul6ne/pre_processing/b0_T1w_Reg/result_b0_T1w_Reg.pklz"
+        },
+        {
+            "group": 1,
+            "name": "6_dwi_T1w_Tran",
+            "report": "/tmp/tmp64vo2o50/pre_processing/dwi_T1w_Tran/_report/report.rst",
+            "result": "/tmp/tmp64vo2o50/pre_processing/dwi_T1w_Tran/result_dwi_T1w_Tran.pklz"
+        },
+        {
+            "group": 1,
+            "name": "7_sink",
+            "report": "/tmp/tmp4r6h58vm/pre_processing/sink/_report/report.rst",
+            "result": "/tmp/tmp4r6h58vm/pre_processing/sink/result_sink.pklz"
+        }
+    ]
+}

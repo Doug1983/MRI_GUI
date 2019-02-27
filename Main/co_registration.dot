@@ -1,0 +1,14 @@
+strict digraph  {
+"MNI_BET (fsl)";
+"T1_MNI_Reg (ants)";
+"T1_MNI_Tran (ants)";
+"postopCT_T1_Reg (ants)";
+"postopCT_T1_Tran (ants)";
+"preopCT_T1_Reg (ants)";
+"preopCT_T1_Tran (ants)";
+"MNI_BET (fsl)" -> "T1_MNI_Reg (ants)";
+"MNI_BET (fsl)" -> "T1_MNI_Tran (ants)";
+"T1_MNI_Reg (ants)" -> "T1_MNI_Tran (ants)";
+"postopCT_T1_Reg (ants)" -> "postopCT_T1_Tran (ants)";
+"preopCT_T1_Reg (ants)" -> "preopCT_T1_Tran (ants)";
+}

@@ -1,0 +1,51 @@
+[
+    {
+        "group": 1,
+        "imports": [],
+        "name": "0_postopCT_T1_Reg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "0_postopCT_T1_Reg"
+        ],
+        "name": "1_postopCT_T1_Tran",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [],
+        "name": "2_MNI_BET",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "2_MNI_BET"
+        ],
+        "name": "3_T1_MNI_Reg",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "2_MNI_BET",
+            "3_T1_MNI_Reg"
+        ],
+        "name": "4_T1_MNI_Tran",
+        "size": 1
+    },
+    {
+        "group": 1,
+        "imports": [
+            "2_MNI_BET",
+            "0_postopCT_T1_Reg",
+            "3_T1_MNI_Reg",
+            "1_postopCT_T1_Tran",
+            "4_T1_MNI_Tran"
+        ],
+        "name": "5_sink",
+        "size": 1
+    }
+]

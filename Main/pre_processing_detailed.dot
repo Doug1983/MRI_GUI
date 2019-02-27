@@ -1,0 +1,20 @@
+digraph structs {
+node [shape=record];
+pre_processingdwi_BET [label="{IN}|{ dwi_BET | fsl |  }|{OUT|<outmaskfile> mask_file|<outoutfile> out_file}"];
+pre_processingdwi_Eddy [label="{IN|<ininfile> in_file|<ininmask> in_mask}|{ dwi_Eddy | fsl |  }|{OUT|<outoutcorrected> out_corrected}"];
+pre_processingdwi_ROI_b0 [label="{IN|<ininfile> in_file}|{ dwi_ROI_b0 | fsl |  }|{OUT|<outroifile> roi_file}"];
+pre_processingT1w_BET [label="{IN}|{ T1w_BET | fsl |  }|{OUT|<outmaskfile> mask_file|<outoutfile> out_file}"];
+pre_processingT1w_BFC [label="{IN|<ininputimage> input_image|<inmaskimage> mask_image}|{ T1w_BFC | ants |  }|{OUT|<outoutputimage> output_image}"];
+pre_processingb0_T1w_Reg [label="{IN|<infixedimage> fixed_image|<inmovingimage> moving_image}|{ b0_T1w_Reg | ants |  }|{OUT|<outcompositetransform> composite_transform}"];
+pre_processingdwi_T1w_Tran [label="{IN|<ininputimage> input_image|<inreferenceimage> reference_image|<intransforms> transforms}|{ dwi_T1w_Tran | ants |  }|{OUT}"];
+pre_processingT1w_BET:outmaskfile:e -> pre_processingT1w_BFC:inmaskimage:w;
+pre_processingT1w_BET:outoutfile:e -> pre_processingT1w_BFC:ininputimage:w;
+pre_processingT1w_BFC:outoutputimage:e -> pre_processingb0_T1w_Reg:infixedimage:w;
+pre_processingb0_T1w_Reg:outcompositetransform:e -> pre_processingdwi_T1w_Tran:intransforms:w;
+pre_processingdwi_BET:outmaskfile:e -> pre_processingdwi_Eddy:ininmask:w;
+pre_processingdwi_BET:outoutfile:e -> pre_processingdwi_Eddy:ininfile:w;
+pre_processingdwi_Eddy:outoutcorrected:e -> pre_processingdwi_ROI_b0:ininfile:w;
+pre_processingdwi_Eddy:outoutcorrected:e -> pre_processingdwi_T1w_Tran:ininputimage:w;
+pre_processingdwi_ROI_b0:outroifile:e -> pre_processingb0_T1w_Reg:inmovingimage:w;
+pre_processingdwi_ROI_b0:outroifile:e -> pre_processingdwi_T1w_Tran:inreferenceimage:w;
+}
